@@ -1,7 +1,7 @@
 # concept-database
 
 ### Overworld
-Tundrans 
+Tundrans/n
 Tundran Raids
 Chilling Howl
 Yetis
