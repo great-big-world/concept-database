@@ -7,7 +7,7 @@ Chilling Howl
 Yetis  
 Wind  
 Wind Vane  
-Spears  
+[Spears](https://github.com/great-big-world/concept-database/wiki/Spears)    
 Blizzards  
 Fur Armor  
 Carnations  
