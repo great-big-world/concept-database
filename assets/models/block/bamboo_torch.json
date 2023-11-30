@@ -1,8 +1,9 @@
 {
-    "ambientocclusion": false,
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"textures": {
-		"torch": "great_big_world:block/bamboo_torch_size0",
-		"particle": "#torch"
+		"3": "assets:block/bamboo_torch/bamboo_plank_torch",
+		"5": "assets:block/bamboo_torch/bamboo_plank_torch_neck"
 	},
 	"elements": [
 		{
@@ -10,38 +11,25 @@
 			"to": [9, 14, 9],
 			"shade": false,
 			"faces": {
-				"north": {"uv": [7, 2, 9, 16], "texture": "#torch"},
-				"east": {"uv": [7, 2, 9, 16], "texture": "#torch"},
-				"south": {"uv": [7, 2, 9, 16], "texture": "#torch"},
-				"west": {"uv": [7, 2, 9, 16], "texture": "#torch"},
-				"up": {"uv": [7, 2, 9, 4], "texture": "#torch", "cullface": "up"},
-				"down": {"uv": [7, 8, 9, 10], "texture": "#torch", "cullface": "down"}
+				"north": {"uv": [7, 2, 9, 16], "texture": "#3"},
+				"east": {"uv": [7, 2, 9, 16], "texture": "#3"},
+				"south": {"uv": [7, 2, 9, 16], "texture": "#3"},
+				"west": {"uv": [7, 2, 9, 16], "texture": "#3"},
+				"up": {"uv": [7, 2, 9, 4], "texture": "#3", "cullface": "up"},
+				"down": {"uv": [7, 8, 9, 10], "texture": "#3", "cullface": "down"}
 			}
 		},
 		{
-			"from": [8, 0, 0],
-			"to": [8, 11, 16],
+			"from": [6.5, 8, 6.5],
+			"to": [9.5, 12, 9.5],
 			"shade": false,
 			"faces": {
-				"north": {"uv": [0, 0, 0, 16], "texture": "#torch"},
-				"east": {"uv": [0, 5, 16, 16], "texture": "#torch"},
-				"south": {"uv": [0, 0, 0, 16], "texture": "#torch"},
-				"west": {"uv": [0, 5, 16, 16], "texture": "#torch"},
-				"up": {"uv": [0, 0, 0, 16], "texture": "#torch"},
-				"down": {"uv": [0, 0, 0, 16], "texture": "#torch"}
-			}
-		},
-		{
-			"from": [0, 0, 8],
-			"to": [16, 11, 8],
-			"shade": false,
-			"faces": {
-				"north": {"uv": [0, 5, 16, 16], "texture": "#torch"},
-				"east": {"uv": [0, 0, 0, 16], "texture": "#torch"},
-				"south": {"uv": [0, 5, 16, 16], "texture": "#torch"},
-				"west": {"uv": [0, 0, 0, 16], "texture": "#torch"},
-				"up": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#torch"},
-				"down": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#torch"}
+				"north": {"uv": [3, 3, 6, 7], "texture": "#5"},
+				"east": {"uv": [6, 3, 9, 7], "texture": "#5"},
+				"south": {"uv": [9, 3, 12, 7], "texture": "#5"},
+				"west": {"uv": [0, 3, 3, 7], "texture": "#5"},
+				"up": {"uv": [3, 0, 6, 3], "texture": "#5"},
+				"down": {"uv": [6, 0, 9, 3], "texture": "#5"}
 			}
 		}
 	]
